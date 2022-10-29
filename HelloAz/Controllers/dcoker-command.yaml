@@ -1,0 +1,17 @@
+# docker build image
+# docker build -t helloazimage:v1 .
+
+# run container
+# docker run --name helloaz -p 32012:80 --detach helloazimage:v1
+
+# dcoker container list
+# docker ps
+
+# docker stop container
+# docker stop containername
+
+# docker delete container
+# docker rm containername
+
+# docker container help
+# docker ps --help
