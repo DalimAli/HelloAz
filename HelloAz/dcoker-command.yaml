@@ -1,3 +1,9 @@
+# get docker help
+# docker help
+
+# get docker build help
+# docker build --help
+
 # docker build image
 # docker build -t helloazimage:v1 .
 
@@ -15,3 +21,5 @@
 
 # docker container help
 # docker ps --help
+
+
