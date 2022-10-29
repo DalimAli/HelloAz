@@ -7,6 +7,12 @@
 # docker build image
 # docker build -t helloazimage:v1 .
 
+# docker image list
+# docker image ls
+
+# delete a docker image 
+# docker image rm imagename
+
 # run container
 # docker run --name helloaz -p 32012:80 --detach helloazimage:v1
 
