@@ -143,3 +143,10 @@ $URL = (az container show --resource-group $RESOURCE_GROUP_NAME --name $CONTAINE
 echo $URL
 
 http://hello-az-pvt-container-cli.centralus.azurecontainer.io/WeatherForecast
+
+#delete container
+
+az container delete `
+--name $CONTAINER_NAME `
+--resource-group $RESOURCE_GROUP_NAME `
+--yes
